@@ -8,7 +8,7 @@ This script allows you to easily insert a game note into your vault.
 
 # Installation
 
-You have to install a QuickAdd plugin for this to work. You will need to put the user script into a new macro and then create a Macro choic in the main menu to activate it.
+You have to install a `QuickAdd` plugin for this to work. You will need to put the user script into a new macro and then create a Macro choic in the main menu to activate it.
 
 - Save the script (games.js) to your vault. Make sure it's saved as a JavaScript (.js) file.
 - Create a new template in your designated templates folder.

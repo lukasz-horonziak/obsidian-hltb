@@ -38,7 +38,7 @@ async function start(params, _settings) {
 
     QuickAdd.variables = {
         title: getGameDetails.game_name,
-        description: getGameDetails.profile_summary,
+        description: getGameDetails.profile_summary.replace(/(\r\n|\n|\r)/gm, ""),
         developer: getGameDetails.profile_dev,
         released: getGameDetails.release_world,
         reviewScore: getGameDetails.review_score,
